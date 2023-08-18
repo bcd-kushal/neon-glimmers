@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/encrypt_style.css" />
+  </head>
+
+  <body>
+    <script src="./js/script.js"></script>
+
+    <div class="parentContainer">
+      <!--background shade-->
+      <div class="bgShade"></div>
+
+      <!--glowing particles-->
+      <div class="particle">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+      <div class="particle">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+      <div class="particle">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+      <div class="particle">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+      <div class="particle">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+      <!--end particles-->
+
+      <!--card elements-->
+      <div class="input_card">
+        <!-- <div class="header">
+                <div class="title">
+                    Login
+                </div>
+            </div> -->
+        <div class="description">
+          <div class="details">
+            <span>
+              Enter details to
+              <container style="color: rgb(255, 51, 51)"
+                >access the page</container
+              >
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/php_confirm.php" method="get">
+              <div class="input_field">
+                <input
+                  type="text"
+                  name="user"
+                  placeholder="Username"
+                  style="width: 40%"
+                  required
+                />
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  style="width: 40%"
+                  required
+                />
+              </div>
+              <div class="submission">
+                <div class="submitVal">
+                  <input type="submit" value="SUBMIT" />
+                </div>
+                <div class="resetVal">
+                  <input type="reset" value="RESET" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end cards-->
+  </body>
+</html>

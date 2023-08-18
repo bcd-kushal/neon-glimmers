@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <script src="./js/script.js"></script>
+    <main class="parentContainer">
+      <!--background shade-->
+      <div class="bgShade"></div>
+
+      <!--glowing particles-->
+      <div class="particle">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+      <div class="particle">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+      <div class="particle">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+      <div class="particle">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+      <div class="particle">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+      </div>
+      <!--end particles-->
+
+      <!--bottom options-->
+      <div class="bottom">
+        <div class="box">
+          <span></span>
+          <div class="num">
+            <input type="button" onclick="showCard(0)" value="1" />
+          </div>
+        </div>
+        <div class="box">
+          <span></span>
+          <div class="num">
+            <input type="button" onclick="showCard(1)" value="2" />
+          </div>
+        </div>
+        <div class="box">
+          <span></span>
+          <div class="num">
+            <input type="button" onclick="showCard(2)" value="3" />
+          </div>
+        </div>
+        <div class="box">
+          <span></span>
+          <div class="num">
+            <input type="button" onclick="showCard(3)" value="4" />
+          </div>
+        </div>
+        <div class="box">
+          <span></span>
+          <div class="num">
+            <input type="button" onclick="showCard(4)" value="5" />
+          </div>
+        </div>
+        <div class="box">
+          <span></span>
+          <div class="num">
+            <input type="button" onclick="showCard(5)" value="6" />
+          </div>
+        </div>
+        <div class="box">
+          <span></span>
+          <div class="num">
+            <input type="button" onclick="showCard(6)" value="7" />
+          </div>
+        </div>
+        <div class="box">
+          <span></span>
+          <div class="num">
+            <input type="button" onclick="showCard(7)" value="8" />
+          </div>
+        </div>
+        <div class="box">
+          <span></span>
+          <div class="num">
+            <input type="button" onclick="showCard(8)" value="9" />
+          </div>
+        </div>
+        <div class="box">
+          <span></span>
+          <div class="num">
+            <input type="button" onclick="showCard(9)" value="10" />
+          </div>
+        </div>
+      </div>
+      <!--end options line-->
+
+      <!--card elements-->
+      <div class="input_card">
+        <div class="header">
+          <div class="title">Bubble sort an array</div>
+        </div>
+        <div class="description">
+          <div class="details">
+            <span>
+              Enter numbers to
+              <container style="color: rgb(255, 51, 51)"
+                >sort in ascending</container
+              >
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/one.php" method="get">
+              <div class="input_field">
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="one[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="one[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="one[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="one[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="one[]"
+                  placeholder="` ^ `"
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="one[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="one[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="one[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="one[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+              </div>
+              <div class="submission">
+                <div class="resetVal">
+                  <input type="reset" value="RESET" />
+                </div>
+                <div class="submitVal">
+                  <input type="submit" value="SUBMIT" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="input_card">
+        <div class="header">
+          <div class="title">Positives then Negatives</div>
+        </div>
+        <div class="description">
+          <div class="details">
+            <span>
+              Array showing its
+              <container style="color: rgb(255, 51, 228)"
+                >+ve's to -ve's</container
+              >
+              in given order
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/two.php" method="get">
+              <div class="input_field">
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder="^^"
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+                <input
+                  type="number"
+                  min="-999999"
+                  max="999999"
+                  name="two[]"
+                  placeholder=""
+                  style="width: 31%"
+                />
+              </div>
+              <div class="submission">
+                <div class="resetVal">
+                  <input type="reset" value="RESET" />
+                </div>
+                <div class="submitVal">
+                  <input type="submit" value="SUBMIT" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="input_card">
+        <div class="header">
+          <div class="title">Random matrix shifts</div>
+        </div>
+        <div class="description">
+          <div class="details">
+            <span>
+              ASCII
+              <container style="color: rgb(40, 228, 97)"
+                >random shifts</container
+              >
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/three.php" method="get">
+              <div class="input_field"></div>
+              <div class="submission">
+                <div class="resetVal"></div>
+                <div class="submitVal">
+                  <input type="submit" value="LETS GO" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="input_card">
+        <div class="header">
+          <div class="title">Matrix product</div>
+        </div>
+        <div class="description">
+          <div class="details">
+            <span>
+              Enter 2 matrices to
+              <container style="color: rgb(21, 228, 255)">multiply</container>
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/four.php" method="get">
+              <div class="input_field4">
+                <span
+                  ><p></p>
+                  <p>First matrix:</p>
+                  <p></p>
+                  <p></p
+                ></span>
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <input type="number" name="four_a[]" />
+                <span
+                  ><p></p>
+                  <p>Second matrix:</p>
+                  <p></p>
+                  <p></p
+                ></span>
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+                <input type="number" name="four_b[]" />
+              </div>
+              <div class="submission">
+                <div class="resetVal">
+                  <input type="reset" value="RESET" />
+                </div>
+                <div class="submitVal">
+                  <input type="submit" value="SUBMIT" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="input_card">
+        <div class="header">
+          <div class="title">Powers of all Prime Factors</div>
+        </div>
+        <div class="description">
+          <div class="details">
+            <span>
+              Enter a
+              <container style="color: yellow">positive</container> number
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/five.php" method="get">
+              <div class="input_field">
+                <input
+                  type="number"
+                  min="1"
+                  max="999999"
+                  name="five[]"
+                  placeholder=""
+                  style="width: 100%"
+                />
+                <input
+                  type="number"
+                  min="1"
+                  max="999999"
+                  name="five[]"
+                  placeholder=""
+                  style="width: 100%"
+                />
+                <input
+                  type="number"
+                  min="1"
+                  max="999999"
+                  name="five[]"
+                  placeholder=""
+                  style="width: 100%"
+                />
+                <input
+                  type="number"
+                  min="1"
+                  max="999999"
+                  name="five[]"
+                  placeholder=""
+                  style="width: 100%"
+                />
+              </div>
+              <div class="submission">
+                <div class="resetVal">
+                  <input type="reset" value="RESET" />
+                </div>
+                <div class="submitVal">
+                  <input type="submit" value="SUBMIT" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="input_card">
+        <div class="header">
+          <div class="title">Roman Numbers</div>
+        </div>
+        <div class="description">
+          <div class="details">
+            <span>
+              Enter 2 numbers to show in
+              <container style="color: yellow">romans</container>
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/six_a.php" method="get">
+              <div class="input_field">
+                <input
+                  type="number"
+                  name="six[]"
+                  placeholder="greater than second"
+                  style="width: 45%"
+                />
+                <input
+                  type="number"
+                  name="six[]"
+                  placeholder="lesser than first"
+                  style="width: 45%"
+                />
+              </div>
+              <div class="submission">
+                <div class="resetVal">
+                  <input type="reset" value="RESET" />
+                </div>
+                <div
+                  class="submitVal"
+                  onsubmit="return confirm('Do you want to submit?')"
+                >
+                  <input type="submit" value="SUBMIT" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <script>
+        function abc(form) {
+          if (!confirm("Confirm submission?")) {
+            return false;
+          }
+          this.form.submit();
+        }
+      </script>
+      <div class="input_card">
+        <div class="header">
+          <div class="title">Character frequency</div>
+        </div>
+        <div class="description">
+          <div class="details">
+            <span>
+              A sentence for
+              <container style="color: rgb(21, 228, 255)"
+                >vowels consonants whitespaces</container
+              >
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/seven.php" method="get">
+              <div class="input_field">
+                <input
+                  type="text"
+                  name="seven"
+                  style="width: 100%"
+                  placeholder="nothing here"
+                />
+              </div>
+              <div class="submission">
+                <div class="resetVal">
+                  <input type="reset" value="RESET" />
+                </div>
+                <div class="submitVal">
+                  <input type="submit" value="SUBMIT" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="input_card">
+        <div class="header">
+          <div class="title">Word frequency</div>
+        </div>
+        <div class="description">
+          <div class="details">
+            <span>
+              Enter sentence/s to
+              <container style="color: rgb(40, 228, 97)"
+                >count its words</container
+              >
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/eight.php" method="get">
+              <div class="input_field">
+                <input
+                  type="text"
+                  name="eight[]"
+                  style="width: 100%"
+                  placeholder=""
+                />
+                <input
+                  type="text"
+                  name="eight[]"
+                  style="width: 100%"
+                  placeholder="feels empty"
+                />
+                <input
+                  type="text"
+                  name="eight[]"
+                  style="width: 100%"
+                  placeholder="is empty"
+                />
+                <input
+                  type="text"
+                  name="eight[]"
+                  style="width: 100%"
+                  placeholder=""
+                />
+              </div>
+              <div class="submission">
+                <div class="resetVal">
+                  <input type="reset" value="RESET" />
+                </div>
+                <div class="submitVal">
+                  <input type="submit" value="SUBMIT" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="input_card">
+        <div class="header">
+          <div class="title" style="padding-left: 30%">Name</div>
+        </div>
+        <div class="description">
+          <div class="details">
+            <span>
+              Enter someone's name
+              <container style="color: rgb(255, 51, 228)">...</container>
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/nine.php" method="get">
+              <div class="input_field">
+                <input
+                  type="text"
+                  name="nine"
+                  style="width: 100%"
+                  placeholder="im me"
+                />
+              </div>
+              <div class="submission">
+                <div class="resetVal">
+                  <input type="reset" value="RESET" />
+                </div>
+                <div class="submitVal">
+                  <input type="submit" value="SUBMIT" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="input_card">
+        <div class="header">
+          <div class="title">Search pattern</div>
+        </div>
+        <div class="description">
+          <div class="details">
+            <span>
+              Enter name/s and a pattern to
+              <container style="color: rgb(255, 51, 51)"
+                >search in name/s</container
+              >
+            </span>
+          </div>
+          <div class="forms">
+            <form action="./php/ten.php" method="get">
+              <div class="input_field">
+                <input
+                  type="text"
+                  name="ten[]"
+                  style="width: 100%"
+                  placeholder=""
+                />
+                <input
+                  type="text"
+                  name="ten[]"
+                  style="width: 100%"
+                  placeholder=""
+                />
+                <input
+                  type="text"
+                  name="ten[]"
+                  style="width: 100%"
+                  placeholder=""
+                />
+                <input
+                  type="text"
+                  name="ten[]"
+                  style="width: 100%"
+                  placeholder=""
+                />
+                <input
+                  type="text"
+                  name="ten[]"
+                  style="width: 100%"
+                  placeholder=""
+                />
+                <input
+                  type="text"
+                  name="ten[]"
+                  style="width: 100%"
+                  placeholder=""
+                />
+                <span>Pattern : </span>
+                <input
+                  type="text"
+                  name="ten[]"
+                  style="width: 65%"
+                  placeholder="^^"
+                  onmouseover="this.style.color='aqua'"
+                  required
+                />
+              </div>
+              <div class="submission">
+                <div class="resetVal">
+                  <input type="reset" value="RESET" />
+                </div>
+                <div class="submitVal">
+                  <input type="submit" value="SUBMIT" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--end cards-->
+    </main>
+  </body>
+</html>
